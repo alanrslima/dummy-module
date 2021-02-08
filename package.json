@@ -1,0 +1,27 @@
+{
+  "name": "dummy-react-npm-module",
+  "version": "1.0.0",
+  "description": "A dummy react npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "login": "npm login",
+    "publish": "npm publish"
+  },
+  "keywords": [],
+  "author": "Alan Lima",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-native": "0.63.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "react": "^17.0.1",
+    "react-native": "0.63.4"
+  }
+}
